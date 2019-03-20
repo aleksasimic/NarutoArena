@@ -1,0 +1,18 @@
+.chakra{
+    float:left;
+    height:20px;
+    width:20px;
+    margin-left:10px;
+}
+#nin{
+    background-color:blue;
+}
+#gen{
+    background-color:white;
+}
+#tai{
+    background-color:green;
+}
+#blood{
+    background-color:red;
+}

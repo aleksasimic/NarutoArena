@@ -1,0 +1,19 @@
+ <div class="media-body">
+       <div id="slika" (click)="selectCharacter()" ><img src= {{character.imagecharacter}} alt="character.name"></div>
+        <div id="ime"><h5 class="mt-0 mb-1" id="ime">{{character.name}}</h5></div>
+        <div if="about"> {{character.about}}</div>
+        <div id="forskills">
+            
+          <div id="prviskill"><img src= {{character.skills[0].skillurl}}></div>
+          <div id="drugiskill"><img src= {{character.skills[1].skillurl}}></div>
+          <div id="treciskill"><img src= {{character.skills[2].skillurl}}></div>
+          <div id="cetvrtiskill"><img src= {{character.skills[3].skillurl}}></div>
+        </div>
+        <div class="m">
+          <div class="names">{{character.skills[0].name}}</div>
+          <div class="names">{{character.skills[1].name}}</div>
+          <div class="names">{{character.skills[2].name}}</div>
+          <div class="names">{{character.skills[3].name}}</div>
+        </div>
+</div>
+

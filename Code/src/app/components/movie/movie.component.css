@@ -1,0 +1,7 @@
+.movieDiv {
+    border-radius: 5px;
+    border: 2px black solid;
+    width: 100px;
+    padding: 5px;
+    margin: 5px;
+}

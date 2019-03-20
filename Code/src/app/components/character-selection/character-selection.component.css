@@ -1,0 +1,37 @@
+#listelement
+{
+   
+    border:2px solid #006dcc;
+}
+#levi{
+    float:left;
+    width:50%;
+}
+#desni{
+    float:left;
+    width:50%;
+    
+}
+#gornji{
+    width:100%;
+    height:50%;
+}
+#donji{
+    width:100%;
+    height:50%;
+}
+#container{
+    background: url("https://cdn1.imggmi.com/uploads/2018/6/16/9af7b41ae413d4187593a20f33dde03b-full.jpg") no-repeat center center fixed;
+    height:100%;
+    width:100%;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#listelement{
+    background-color: white;
+}

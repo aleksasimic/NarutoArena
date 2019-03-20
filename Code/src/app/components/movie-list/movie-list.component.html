@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let film of movies$ | async">
+    <app-movie 
+      [movie]="film"
+      [selected]="film==(selected$ | async)"
+      (selectedEvent)="onSelectMovie($event)"></app-movie>
+  </li>
+  <app-movie-details [movie]="selected$ | async"></app-movie-details>
+</ul>

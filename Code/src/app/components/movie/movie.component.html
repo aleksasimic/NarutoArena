@@ -1,0 +1,7 @@
+<div *ngIf="movie != null" (click)="selectMovie()" class="movieDiv">
+  {{movie.title}}
+  <br/>
+  <div [style.background-color]="selected ? 'green' : 'red'">
+  {{selected}}
+  </div>
+</div>

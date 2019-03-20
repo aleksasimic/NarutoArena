@@ -1,0 +1,17 @@
+<div id="container">
+  <div id="dugmici">
+  <button routerLink="/ingame" type="button" class="btn btn-primary">
+    Start ladder game </button>
+    <button routerLink="/ingame" type="button" class="btn btn-primary">
+    Start mission game</button>
+    <button routerLink="/home" type="button" class="btn btn-primary">
+    Log out  </button>
+    </div>
+    <div *ngFor="let char of charactersselected$|async" id="slike">
+        <div id="forskillstwo">
+            <div id="prvichar"><img src= {{char.imagecharacter}} alt="1"></div>    
+        </div>
+
+    </div>
+    <div>Choose your team and start a game!</div>
+</div>

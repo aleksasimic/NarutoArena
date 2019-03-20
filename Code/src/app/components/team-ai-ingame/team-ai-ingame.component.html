@@ -1,0 +1,9 @@
+<ul class="list-unstyled">
+    <li id="listelement" *ngFor="let character of aiingamecharacters$ | async" class="media">
+      <app-charcter-in-game-ai [character]="character" 
+      (charClickedEvent)="onCharClickedTeam($event)"
+      ></app-charcter-in-game-ai>
+      
+    </li>
+   
+</ul>

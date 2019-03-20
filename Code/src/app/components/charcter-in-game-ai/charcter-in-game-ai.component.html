@@ -1,0 +1,9 @@
+<div  *ngIf="character.health > 0">
+<div id="slika" (click)="charClick()" ><img src= {{character.imagecharacter}} alt="character.name"></div>
+<progress id="healthtwo" value={{character.health}} max="100"  [style.background-color]="character.health<50? 'yellow' : 'green'">
+  
+</progress>
+</div>
+<div *ngIf="character.health <= 0">
+<div><img src="https://cdn1.imggmi.com/uploads/2018/6/17/118130ef46fe08afe208dc97853f187d-full.png"></div>
+</div>

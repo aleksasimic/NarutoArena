@@ -1,0 +1,31 @@
+#container{
+    background-color:white;
+    border:2px solid #006dcc;
+    font-weight: bold;
+}
+.btn-primary{
+    margin-left: 60px;
+}
+#dugmici{
+    height:50%;
+}
+#slike{
+    height:50%;
+    background-color:white;
+}
+#forskillstwo{
+    font-weight:bold;
+    background-color:white;
+}
+#prvichar{
+    float:left;
+    width:33%;
+}
+#drugichar{
+    float:left;
+    width:33%;
+}
+#trecichar{
+    float:left;
+    width:33%;
+}

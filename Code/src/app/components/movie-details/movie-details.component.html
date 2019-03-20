@@ -1,0 +1,15 @@
+<div *ngIf="movie">
+  <input [(ngModel)]="movie.title" />
+  <br />
+  <span>Rating {{movie.rating}}</span>
+  <!-- <button (click)="decreaseRating()">-</button>
+  <button (click)="increaseRating()">+</button> -->
+  <br />
+  <div class="rating">
+    <div 
+      *ngFor="let i of [1, 2, 3, 4, 5]" class="star" 
+      [style.backgroundColor]="i <= movie.rating ? 'orange' : 'grey'"
+      (click)="setRating(i)">
+    </div>
+  </div>
+</div>

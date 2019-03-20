@@ -1,0 +1,218 @@
+{
+    "movies":[
+        {
+        "id": 0,
+        "title": "King Arthur",
+        "year": 1992,
+        "rating": 10,
+        "awards": ["Academy Award"]
+    },
+    {
+        "id": 1,
+        "title": "King Barthur",
+        "year": 1992,
+        "rating": 10,
+        "awards": ["Academy Award"]
+    },
+    {
+        "id": 2,
+        "title": "King Carthur",
+        "year": 1992,
+        "rating": 10,
+        "awards": ["Academy Award"]
+    }
+    ],
+    "users":[
+        {
+            "id":1,
+            "username":"Morpheus13",
+            "password":"pericabot",
+            "level":38,
+            "experience":16552,
+            "imageurl":"https://cdn1.imggmi.com/uploads/2018/6/16/18b273119253981b1f0547d67148bdb5-full.png",
+            "location":"Nis,Serbia",
+            "rank":"Jinchuuruki"
+        },
+        {
+            "id":2,
+            "username":"selena",
+            "password":"nub",
+            "level":14,
+            "experience":522,
+            "imageurl":"https://cdn1.imggmi.com/uploads/2018/6/16/18b273119253981b1f0547d67148bdb5-full.png",
+            "location":"Belgrade,Serbia",
+            "rank":"Missing-nin"
+        },
+        {
+            "id":3,
+            "username":"Ruki",
+            "password":"pro",
+            "level":46,
+            "experience":25550,
+            "imageurl":"https://cdn1.imggmi.com/uploads/2018/6/16/18b273119253981b1f0547d67148bdb5-full.png",
+            "location":"Kragujevac,Serbia",
+            "rank":"Hokage"
+        }
+    ],
+    "all-characters":[
+        {
+            "id":1,
+            "imagecharacter":"https://cdn1.imggmi.com/uploads/2018/6/16/25e9e4f61a90357d947c1ee1070444ab-full.png",
+            "name":"Naruto Uzumaki",
+            "about":"Naruto Uzumaki is the main character of the series.He is very strong and uses Rasengan.He is one of the Jinchuuruki.",
+            "skills":[
+                {
+                    "number":1,
+                    "name":"Rasengan",
+                    "description":"Deals 40 damage to selected target.",
+                    "effect":-40,
+                    "singletarget":true,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/c51d5f73da34c1833a0bffdf3b94522b-full.jpg",
+                    "cost":[1,0,1,0]
+                },
+                {
+                    "number":2,
+                    "name":"Shadow clones",
+                    "description":"Deals 20 damage to all enemies.",
+                    "effect":-20,
+                    "singletarget":false,
+                    "twotargets":false,
+                    "threetargets":true,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/07c0c720bdc63294a9e69b5cbb870973-full.jpg",
+                    "cost":[0,1,1,0]
+                },
+                {
+                    "number":3,
+                    "name":"Jinchuuruki mode",
+                    "description":"Heals selected ally",
+                    "effect":20,
+                    "singletarget":true,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/710bda707fa7bdab2b0100178e3aa302-full.jpg",
+                    "cost":[0,1,1,1]
+                },
+                {
+                    "number":4,
+                    "name":"Invulnereable",
+                    "description":"Makes you invulnereable next turn.",
+                    "effect":0,
+                    "singletarget":false,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/f0a61897f9250c72bd8d9761809d23dd-full.jpg",
+                    "cost":[0,0,0,1]
+                }
+            ],
+            "health":100
+        },
+        {
+            "id":2,
+            "imagecharacter":"https://cdn1.imggmi.com/uploads/2018/6/16/c20617e72893d3b77835b6fc6bbd90d9-full.png",
+            "name":"Sakura Haruno",
+            "about":"Sakura Haruno is Naruto's best friend and wife to be.She is capable of healing both her and her allies.",
+            "skills":[
+                {
+                    "number":1,
+                    "name":"Punch",
+                    "description":"Deals 20 damage to selected target.",
+                    "effect":-20,
+                    "singletarget":true,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/0688d333de83b4872e0aa15df3929dd1-full.jpg",
+                    "cost":[1,0,0,0]
+                },
+                {
+                    "number":2,
+                    "name":"Recover wounds",
+                    "description":"Restores 20 health to all allies.",
+                    "effect":20,
+                    "singletarget":false,
+                    "twotargets":false,
+                    "threetargets":true,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/6fdc3561dd1d9396e577535f8401e57c-full.png",
+                    "cost":[0,0,1,0]
+                },
+                {
+                    "number":3,
+                    "name":"Magical healing",
+                    "description":"Heals selected ally",
+                    "effect":20,
+                    "singletarget":true,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/a061684acf659efd2ab89f14758d18df-full.png",
+                    "cost":[0,1,1,0]
+                },
+                {
+                    "number":4,
+                    "name":"Invulnereable",
+                    "description":"Makes you invulnereable next turn.",
+                    "effect":0,
+                    "singletarget":false,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/f0a61897f9250c72bd8d9761809d23dd-full.jpg",
+                    "cost":[0,0,0,1]
+                }
+            ],
+            "health":100
+        },
+        {
+            "id":3,
+            "imagecharacter":"https://cdn1.imggmi.com/uploads/2018/6/16/291468a27615eb075effa6688bc3b7e3-full.jpg",
+            "name":"Sasuke Uchiha",
+            "about":"Sasuke Uchiha is main protagonist of the series.He has Mangekyo Sharingan.He is very powerfull.He can turn into Susanoo.",
+            "skills":[
+                {
+                    "number":1,
+                    "name":"Chidori",
+                    "description":"Deals 50 damage to selected target.",
+                    "effect":-50,
+                    "singletarget":true,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/8acb441aefd8e9b53d8e978105256eb5-full.png",
+                    "cost":[1,1,1,0]
+                },
+                {
+                    "number":2,
+                    "name":"Sharingan",
+                    "description":"Restores 30 health to himself.",
+                    "effect":30,
+                    "singletarget":true,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/4c9004eddcb99251395448dba3b01b80-full.jpg",
+                    "cost":[1,0,1,0]
+                },
+                {
+                    "number":3,
+                    "name":"Susanoo",
+                    "description":"Deals 30 damage to all enemies",
+                    "effect":-30,
+                    "singletarget":false,
+                    "twotargets":false,
+                    "threetargets":true,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/c90f2a606c12ebca33b37911c167843f-full.png",
+                    "cost":[0,0,1,0]
+                },
+                {
+                    "number":4,
+                    "name":"Invulnereable",
+                    "description":"Makes you invulnereable next turn.",
+                    "effect":0,
+                    "singletarget":false,
+                    "twotargets":false,
+                    "threetargets":false,
+                    "skillurl":"https://cdn1.imggmi.com/uploads/2018/6/16/f0a61897f9250c72bd8d9761809d23dd-full.jpg",
+                    "cost":[0,0,0,1]
+                }
+            ],
+            "health":100
+        }
+    ]
+}

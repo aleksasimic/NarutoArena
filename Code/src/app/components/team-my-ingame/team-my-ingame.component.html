@@ -1,0 +1,9 @@
+<ul class="list-unstyled">
+    <li id="listelement" *ngFor="let character of myingamecharacters$ | async" class="media">
+      <app-character-in-game-mine [character]="character" 
+      (izChara)="onClickSkillTeam($event)"
+      [trenutneChakreChar]="trenutneChakre"
+      ></app-character-in-game-mine>
+    </li>
+   
+</ul>

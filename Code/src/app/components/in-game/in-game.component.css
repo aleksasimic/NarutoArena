@@ -1,0 +1,85 @@
+#container{
+    background: url("https://cdn1.imggmi.com/uploads/2018/6/16/9af7b41ae413d4187593a20f33dde03b-full.jpg") no-repeat center center fixed;
+    height:100%;
+    width:100%;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#mt{
+    font-weight: bold;
+    margin-left:20px;
+}
+#buttons{
+    float:left;
+    margin-top:304px;
+}
+button{
+    margin-right:10px;
+    margin-left:10px;
+}
+#ch{
+    margin-left:100px;
+    font-weight: bold;
+    width:100%;
+}
+#appchakra{
+    margin-left:60px;
+    float:left;
+    width:100%
+}
+.column {
+    float: left;
+}
+#mojtim{
+    width:40%;
+}
+#timerchakra{
+width:20%;
+}
+#njegovtim{
+    width:40%;
+}
+.chakra{
+    float:left;
+    height:100%;
+    width:20%;
+    margin-left:10px;
+}
+#nin{
+    background-color:blue;
+}
+#gen{
+    background-color:white;
+}
+#tai{
+    background-color:green;
+}
+#blood{
+    background-color:red;
+}
+#chakranum1{
+    font-weight: bold;
+    float:center;
+    margin-left:55px;
+    width:100%;
+}
+#chakranum{
+    float:left;
+    margin-left:20px;
+}
+#mytimer{
+    margin-left:40px;
+    
+    
+}
+#rem{
+    width: 100%;
+    margin-left:20px;
+    font-weight: bold;
+}
+#mytimer::-webkit-progress-value {background: blue; }

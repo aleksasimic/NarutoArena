@@ -1,0 +1,36 @@
+<div class="media-body">
+    <div *ngIf="character.health > 0" id="slika" (click)="selectCharacter()" ><img src= {{character.imagecharacter}} alt="character.name"></div>
+    <div *ngIf="character.health <= 0">
+      <div><img src="https://cdn1.imggmi.com/uploads/2018/6/17/118130ef46fe08afe208dc97853f187d-full.png"></div>
+    </div> 
+    
+    <div *ngFor="let sk of character.skills" id="forskills">
+        <div *ngIf="sk.cost[0]<=trenutneChakreChar[0] && sk.cost[1]<=trenutneChakreChar[1] && sk.cost[2]<=trenutneChakreChar[2] && sk.cost[3]<=trenutneChakreChar[3]">
+            <app-skill [skill]=sk
+            (clickedEvent)="onClickSkill($event)"
+            [enough]="true"
+            ></app-skill>
+        </div>
+        <div *ngIf="sk.cost[0]>trenutneChakreChar[0] || sk.cost[1]>trenutneChakreChar[1] || sk.cost[2]>trenutneChakreChar[2] || sk.cost[3]>trenutneChakreChar[3]">
+          <app-skill [skill]=sk
+            (clickedEvent)="onClickSkill($event)"
+            [enough]="false"
+            ></app-skill>         
+        </div>
+        
+        <div class="names">{{sk.name}}</div>
+     </div>
+     
+     
+     
+     
+     
+     <div id="container">
+        <progress id="health" value={{character.health}} max="100"
+        [style.background-color]="character.health<50? 'yellow' : 'green'"
+        >
+          </progress>
+          
+     </div>
+    
+</div>

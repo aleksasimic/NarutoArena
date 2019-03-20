@@ -1,0 +1,56 @@
+#container-div{
+    
+    background: url("https://cdn1.imggmi.com/uploads/2018/6/16/9af7b41ae413d4187593a20f33dde03b-full.jpg") no-repeat center center fixed;
+    height:100%;
+    width:100%;
+
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+#myformgroup{
+    margin-left:50px;
+}
+#gornji{
+    margin-top:200px;
+    width:100%;
+    height:50%;
+} 
+#donji{
+    width:100%;
+    height:50%;
+}
+#reg{
+    margin-left:50px;
+}
+#sign{
+    margin-left:20px;
+}
+.col{
+    margin-top:10px;
+}

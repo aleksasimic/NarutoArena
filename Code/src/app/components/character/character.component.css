@@ -1,0 +1,39 @@
+.m{
+    background-color:red;
+}
+#prviskill{
+    height:100%;
+    width:25%;
+    float:left;
+}
+#drugiskill{
+    height:100%;
+    width:25%;
+    float:left;   
+}
+#treciskill{
+    height:100%;
+    width:25%;
+    float:left;
+}
+#cetvrtiskill{
+    height:100%;
+    width:25%;
+    float:left;
+}
+.names{
+    height:100%;
+    width:25%;
+    float:left;
+    font-weight: bold;
+}
+#slika{
+    float:left;
+}
+#ime{
+    font-weight:bold;
+   
+}
+#forskills{
+    float:left;
+}

@@ -1,0 +1,13 @@
+<div id="container">
+<div id="levi">
+  <ul class="list-unstyled">
+    <li id="listelement" *ngFor="let character of characters$ | async" class="media">
+      <app-character [character]="character"></app-character>
+    </li>
+  </ul>
+</div>
+<div id="desni">
+<div id="gornji"><app-my-profile></app-my-profile></div>
+<div id="donji"><app-chosen-characters></app-chosen-characters></div>
+</div>
+</div>

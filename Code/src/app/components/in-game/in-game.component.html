@@ -1,0 +1,40 @@
+<div id="container">
+    <div class="row">
+        <div id="mojtim" class="column">
+            <div id="mt">My team</div>
+            <app-team-my-ingame
+            (izTeama)="onClickSkillInGame($event)"
+            [trenutneChakre]="nizchakri"
+            ></app-team-my-ingame>
+        </div>
+        <div id="timerchakra" class="column">
+            <div id="ch">Chakra</div>
+            <div id="appchakra"><app-chakra></app-chakra></div>
+            <div id="chakranum1" *ngFor="let chakra of nizchakri">
+                <div id="chakranum">
+                    {{chakra}}
+                </div>
+            </div>
+            <div id="zatimer">
+                <progress class="" id="mytimer" value={{timer}} max="20">
+                </progress>
+            </div>
+            <div id="rem">
+                    Remaining time for your turn
+                </div>
+            <div id="buttons">
+            <button type="button" class="btn btn-primary" (click)="doMove()">
+                End your move </button>
+            <button type="button"  routerLink="/characterselection" class="btn btn-primary">
+                    Surrender </button>
+            </div>
+        </div>
+        <div id="njegovtim" class="column">
+            <b>Opponent team</b>
+            <app-team-ai-ingame
+            (charClickedEventTeam)="onClickCharGame($event)"
+            ></app-team-ai-ingame>
+        </div>
+      </div>
+
+</div>

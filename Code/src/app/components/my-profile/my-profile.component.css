@@ -1,0 +1,17 @@
+small {
+    display: block;
+    line-height: 1.428571429;
+    color: #999;
+}
+.row{
+    background-color:white;
+    
+}
+.container{
+    border:2px solid #006dcc;
+}
+body{padding-top:30px;}
+label{
+    color:#006dcc;
+    font-weight: bold;
+}
